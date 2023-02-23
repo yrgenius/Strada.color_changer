@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    outline: transparent;
+    margin: 0;
+}
+
+.wrapper {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+}
+
+.color {
+    width: 145px;
+}
+
+.button {
+    border: 1px solid #000000;
+    border-radius: 3px;
+    min-height: 30px;
+    min-width: 143px;
+    text-align: center;
+    box-shadow: inset;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px -2px black;
+    transition: all 0.2s ease-in;
+}
+
+.button:hover {
+    transform: translateX(1px) translateY(1px);
+}
